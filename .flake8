@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 88
+exclude =
+    .git
+    __pycache__
+    tests/*
+max-complexity = 20
+per-file-ignores = __init__.py:F401,F403
+extend-ignore = E203
+ignore = D100,W503
